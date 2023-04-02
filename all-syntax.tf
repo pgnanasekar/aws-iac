@@ -1,4 +1,4 @@
-#provider configuration
+#AWS official provider configuration
 terraform {
  required_providers {
    aws = {                      # provider local name
