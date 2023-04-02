@@ -8,8 +8,8 @@ terraform {
  }
 }
 
-# Configure the AWS Provider
-provider "aws" {
+# Configure the AWS Provider don't forget to replace the keys
+ provider "aws" {
  region = "us-central-1" # provider configuration options
 }
 
